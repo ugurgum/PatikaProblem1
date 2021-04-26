@@ -1,6 +1,5 @@
 n = []
 
-
 def flatList(l):
 
     for i in l:
@@ -13,6 +12,6 @@ def flatList(l):
 
     return n
 
+l = eval(input("Enter a list"))
 
-
-print()
+print(flatList(l))
